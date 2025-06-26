@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DecorHome
 
-## Getting Started
+Bem-vindo ao DecorHome, um projeto em desenvolvimento que busca inspirar e transformar a forma como você decora sua casa! Nosso site interativo oferece uma plataforma para explorar coleções exclusivas de itens de decoração, técnicas criativas e links diretos para compra, conectando você com o melhor do design de interiores.
 
-First, run the development server:
+## Visão Geral do Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O DecorHome é um site voltado para entusiastas de decoração que desejam encontrar inspiração e adquirir itens únicos. Nosso objetivo é criar uma experiência fluida e envolvente, combinando estética moderna com funcionalidade prática. Os usuários podem:
+- Inspirar-se criativamente: Descobrir ideias inovadoras para decorar seus espaços.
+- Explorar coleções: Navegar por diferentes categorias de itens de decoração, desde móveis até acessórios artesanais.
+- Comprar diretamente: Acessar links diretos para adquirir os itens apresentados, com foco em facilitar a experiência de compra.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##Tecnologias Utilizadas
+O projeto é construído com tecnologias modernas para garantir desempenho, escalabilidade e uma ótima experiência do usuário:
+- Frontend: React com Next.js (para renderização eficiente e SEO) e TypeScript (para type safety e manutenção robusta).
+- Estilização: Tailwind CSS (para um design responsivo e consistente).
+= Ícones e Componentes: Integração com lucide-react para ícones leves e modernos.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Instalação e Uso
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/bitakamori/shop.git
+   cd shop
+2. Instale as dependências:
+   npm install ou yarn install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Inicie o servidor de desenvolvimento:
+  npm run dev  ou yarn dev
+  
+📸 Screenshots
+![image](https://github.com/user-attachments/assets/ff518cbc-110f-4d98-adf4-c4dc148b9730)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+##Planos Futuros
+Estamos animados com o futuro do DecorHome! Nossos planos incluem:
+- Apoio a pequenos artistas e artesãos: Criar uma seção dedicada para destacar o trabalho de criadores independentes, promovendo maior visibilidade.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contato
+Para sugestões, dúvidas ou feedback, entre em contato conosco via biancahelenatakamoriribeiro@gmail.com ou abra uma issue no repositório.
+__________________________________________________________________________________________________________________________________________
+DecorHome - Transforme sua casa, inspire sua vida!
