@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import ImageCarousel from "../components/image-carousel";
+import ImageCarousel from "./image-carousel";
 
 const carouselImages = [
   {
@@ -33,25 +33,24 @@ export default function HeroSection() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div className="space-y-6 lg:space-y-8 max-w-lg">
-              <div className="space-y-4">
+              <div className="space-y-4 pt-20 md:pt-0">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                  Transform Your
-                  <span className="block text-white/90">Living Space</span>
+                  Tudo o que você precisa para transformar sua casa está aqui!
                 </h1>
                 <p className="text-lg sm:text-xl text-white/80 leading-relaxed">
-                  Discover our curated collection of modern home decor that
-                  brings warmth, style, and personality to every corner of your
-                  home.
+                  Descubra nossa coleção selecionada de decoração moderna para
+                  casa que traz aconchego, estilo e personalidade a cada canto
+                  da sua casa.
                 </p>
               </div>
 
-              <Link href="/collections" className="inline-block">
+              <Link href="/collections" className="inline-block mb-5 lg:mb-0">
                 <button
                   type="button"
                   aria-label="Explore Collections"
                   className="bg-white text-[#A8B5A2] hover:bg-white/90 font-semibold px-8 py-3 text-lg transition-all duration-300 hover:scale-105"
                 >
-                  Explore Collections
+                  Explore nossas coleções
                 </button>
               </Link>
             </div>

@@ -16,7 +16,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold text-gray-600">
+            <Link
+              href="/"
+              id="logo"
+              className="text-2xl font-bold text-gray-600"
+            >
               DecoHome
             </Link>
           </div>
@@ -33,17 +37,17 @@ const Navbar = () => {
                 href="/collections"
                 className="text-gray-600 hover:text-gray-800 transition-colors duration-200"
               >
-                Collections
+                Coleções
               </Link>
               <Link
                 href="/about"
                 className="text-gray-600 hover:text-gray-800 transition-colors duration-200"
               >
-                About
+                Sobre
               </Link>
               <Link
                 href="/shop"
-                className="text-gray-600 hover:text-gray-800 transition-colors duration-200"
+                className="text-gray-200 transition-colors duration-200 bg-[#A8B5A2] p-2 rounded-md shadow-md hover:bg-[#A8B5A2]/80"
               >
                 Shop
               </Link>
@@ -77,28 +81,28 @@ const Navbar = () => {
         <div className="px-4 pt-2 pb-4 space-y-4 bg-white-50 shadow-inner">
           <Link
             href="/"
-            className="block text-gray-600 hover:text-gray-800 hover:bg-white px-3 py-2 rounded-md transition-colors duration-200"
+            className="block text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md transition-colors duration-200"
             onClick={toggleMenu}
           >
             Home
           </Link>
           <Link
             href="/collections"
-            className="block text-gray-600 hover:text-gray-800 hover:bg-white px-3 py-2 rounded-md transition-colors duration-200"
+            className="block text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md transition-colors duration-200"
             onClick={toggleMenu}
           >
-            Collections
+            Coleções
           </Link>
           <Link
             href="/about"
-            className="block text-gray-600 hover:text-gray-800 hover:bg-white px-3 py-2 rounded-md transition-colors duration-200"
+            className="block text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md transition-colors duration-200"
             onClick={toggleMenu}
           >
-            About
+            Sobre
           </Link>
           <Link
             href="/shop"
-            className="block text-gray-600 hover:text-gray-800 hover:bg-white px-3 py-2 rounded-md transition-colors duration-200"
+            className="block text-white bg-[#A8B5A2] px-3 py-2 rounded-md transition-colors duration-200"
             onClick={toggleMenu}
           >
             Shop
