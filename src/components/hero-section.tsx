@@ -23,17 +23,17 @@ const carouselImages = [
 
 export default function HeroSection() {
   return (
-    <div className="relative min-h-screen w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden">
       <div className="absolute inset-0 flex">
-        <div className="w-4/5 bg-[#A8B5A2]" />
-        <div className="w-1/5 bg-white" />
+        <div className="w-4/5 2xl:w-3/4 bg-[#A8B5A2]" />
+        <div className="w-1/5 2xl:w-2/5 bg-white" />
       </div>
 
-      <div className="relative z-10 min-h-screen flex items-center">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 flex items-center">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-4 py-16 lg:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div className="space-y-6 lg:space-y-8 max-w-lg">
-              <div className="space-y-4 pt-20 md:pt-0">
+              <div className="space-y-4">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
                   Tudo o que você precisa para transformar sua casa está aqui!
                 </h1>
