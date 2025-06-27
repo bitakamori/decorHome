@@ -15,6 +15,9 @@ O projeto é construído com tecnologias modernas para garantir desempenho, esca
 - Estilização: Tailwind CSS (para um design responsivo e consistente).
 = Ícones e Componentes: Integração com lucide-react para ícones leves e modernos.
 
+📸 Screenshots
+![image](https://github.com/user-attachments/assets/c4449fe2-b1a4-48ed-8cb7-90323478e065)
+![image](https://github.com/user-attachments/assets/6ee23766-8f65-4c53-800d-34224a7a85a5)
 
 
 ## Instalação e Uso
@@ -29,9 +32,6 @@ O projeto é construído com tecnologias modernas para garantir desempenho, esca
 3. Inicie o servidor de desenvolvimento:
   npm run dev  ou yarn dev
   
-📸 Screenshots
-![image](https://github.com/user-attachments/assets/ff518cbc-110f-4d98-adf4-c4dc148b9730)
-
 
 ##Planos Futuros
 Estamos animados com o futuro do DecorHome! Nossos planos incluem:
