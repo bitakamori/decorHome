@@ -24,7 +24,7 @@ O projeto é construído com tecnologias modernas para garantir desempenho, esca
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/bitakamori/shop.git
+   git clone https://github.com/bitakamori/decorHome.git
    cd shop
 2. Instale as dependências:
    npm install ou yarn install
