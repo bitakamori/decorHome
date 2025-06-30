@@ -41,3 +41,22 @@ export interface GiftIdeasSectionProps {
   }
   className?: string
 }
+
+export interface CollectionImage {
+  id: string
+  url: string
+  alt: string
+  title: string
+  price?: number
+  shopUrl?: string
+}
+
+export interface Collection {
+  id: string
+  name: string
+  slug: string
+  description: string
+  images: CollectionImage[]
+  featured: CollectionImage[]
+}
+
