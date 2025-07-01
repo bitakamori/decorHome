@@ -8,15 +8,15 @@ const carouselImages = [
     alt: "Modern living room with neutral tones and natural textures",
   },
   {
-    src: "/macra.jpg",
+    src: "/decor.jpg",
     alt: "Scandinavian bedroom with wooden furniture and soft lighting",
   },
   {
-    src: "/macra.jpg",
+    src: "/decor1.jpg",
     alt: "Minimalist kitchen with marble countertops and brass fixtures",
   },
   {
-    src: "/macra.jpg",
+    src: "/decor2.jpg",
     alt: "Cozy reading nook with vintage armchair and botanical prints",
   },
 ];
