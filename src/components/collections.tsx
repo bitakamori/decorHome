@@ -1,3 +1,4 @@
+"use client";
 import { collections } from "@/lib/data";
 import CollectionCarousel from "@/components/collection-carousel";
 

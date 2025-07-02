@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
+import { CartIcon } from "./cart-icon";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -57,11 +58,12 @@ const Navbar = () => {
               </Link>
               <Link
                 href="/shop"
-                className={`transition-colors duration-200 bg-[#A8B5A2] p-2 rounded-md shadow-md hover:bg-[#A8B5A2]/80 ${
+                className={`flex transition-colors duration-200 bg-[#A8B5A2] py-2 px-3 rounded-md shadow-md hover:bg-[#A8B5A2]/80 ${
                   pathname === "/shop" ? "text-gray-300" : "text-gray-100"
                 }`}
               >
                 Shop
+                <CartIcon />
               </Link>
             </div>
           </div>

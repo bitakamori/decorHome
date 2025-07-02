@@ -70,6 +70,7 @@ export default function CollectionCarousel({
             key={image.id}
             image={image}
             collectionSlug={collection.slug}
+            collectionName={collection.name}
           />
         ))}
       </div>
