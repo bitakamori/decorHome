@@ -49,7 +49,7 @@ export default function CollectionCard({
         <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-full transition-transform duration-300 group-hover:translate-y-0">
           <h3 className="font-semibold text-lg mb-1">{image.title}</h3>
           {image.price && (
-            <p className="text-sm opacity-90 mb-3">${image.price}</p>
+            <p className="text-sm opacity-90 mb-3">R${image.price}</p>
           )}
           <Button
             onClick={handleBuyNow}

@@ -43,7 +43,7 @@ export default function CartItemComponent({ item }: CartItemProps) {
         <h3 className="font-semibold text-gray-900">{item.title}</h3>
         <p className="text-sm text-gray-600">{item.collectionName}</p>
         <p className="text-lg font-bold text-gray-900 mt-1">
-          ${item.price ? (item.price * item.quantity).toFixed(2) : "0.00"}
+          R${item.price ? (item.price * item.quantity).toFixed(2) : "0.00"}
         </p>
       </div>
 

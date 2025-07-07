@@ -70,7 +70,7 @@ export default function ShopPage() {
                         {item.title} × {item.quantity}
                       </span>
                       <span>
-                        ${((item.price || 0) * item.quantity).toFixed(2)}
+                        R${((item.price || 0) * item.quantity).toFixed(2)}
                       </span>
                     </div>
                   ))}
